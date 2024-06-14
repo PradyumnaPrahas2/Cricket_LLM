@@ -54,8 +54,6 @@ if(len(s)==0):
     print("Sorry i cannot answer that!")
 else:
     pattern = r"(W\n)+"
-
-    # Replace the matched pattern with an empty string
     s = re.sub(pattern, "", s)
     context = s.lower()
     question = que.lower()
