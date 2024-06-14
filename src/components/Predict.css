@@ -1,0 +1,121 @@
+.team1{
+    margin-right:30%;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 65px;
+    height: 60px;
+}
+.navbar{
+    background: rgba(255, 242, 0, 0.708);
+    width: 100%;
+    height:10px;
+    margin:auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-color: black;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-family: cursive;
+    cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Resulttable{
+    background-color: rgb(165, 155, 42);
+
+}
+/* .table, th, td {
+    border: 3px solid;
+    border-color: black;
+    border-style: solid;
+    width:40%;
+    border-collapse: collapse;
+    margin-top: 3%;
+    height:50px;
+  }
+.table{
+    width:100%;
+    height: 100%;
+} */
+.team1players, .team2players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.team1players label, .team2players label {
+    margin-right: 10px; 
+}
+.tick {
+    color: rgba(61, 177, 6, 0.993);
+    font-size: 30px;
+}
+
+.cross {
+    color: red; 
+    font-size: 30px;
+}
+.button-team1{
+    color: blue;
+}
+.rowcorrect-ans{
+    background-color: rgb(38, 202, 38);
+}
+.rowincorrect-ans{
+    background-color: red;
+}
+/* .history{
+    background-image: ;
+} */
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  th {
+    background-color: #f2f2f2;
+    color: #120f0f;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* Added border between columns */
+  }
+
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* Added border between columns */
+  }
+  /* Style even rows */
+  tr:nth-child(even) {
+    background-color: rgb(252, 252, 245);
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    color: red;
+    background-color: rgb(250, 253, 85);
+  }
+  tr:nth-child(4) td {
+    border-bottom: 2px solid rgb(252, 250, 250);
+  }
+  .logop{
+    height: 100px;
+  }
+  .hover-effect:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }

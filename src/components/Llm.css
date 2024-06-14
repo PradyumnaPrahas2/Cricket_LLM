@@ -1,0 +1,50 @@
+.main{
+    background-color: rgb(245, 248, 248);
+    background-image: url('C:\Users\praha\Downloads\imagebackground.gif');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-style: monospace;
+    font-size: 20px;
+    background-repeat:no-repeat;
+}
+.current-query{
+    background-image: url('C:\Users\praha\Downloads\imagebackground.gif');
+    background-color: rgb(242, 246, 247);
+    height: 800px;
+    width: 85%;
+    margin-left: 7%;
+    color: antiquewhite;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-style: monospace;
+    font-size: 20px;
+    background-repeat:no-repeat;
+}
+.question{
+    height:25px;
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:transparent;
+    margin-top: 20%;
+    /* margin-right: 40%; */
+    font-style: monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    width:60%;
+    
+}
+.answer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 50%;
+    cursor :pointer;
+    color: black;
+    height: 35px;
+    width:50px;
+}

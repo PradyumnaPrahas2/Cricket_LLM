@@ -1,0 +1,167 @@
+.main2{
+    align-content: center;
+    width:40%;
+    height:65%;
+    /* background-color: rgb(242, 204, 210); */
+    border:2px solid white;
+    
+    position: absolute;
+    width: 500px;
+    display: block;
+    position: absolute;
+    left:65%;
+    top: 10%;
+    
+}
+.close{
+    color: black;
+    background-color: red;
+    width: 50px;
+    padding: 20;
+    margin-left: 85%;
+}
+*{
+    margin: 0;
+    padding: 0;
+} 
+.h3{
+    font-size: large;
+    color: black;
+}
+.text{
+    color: black ;
+}
+.e{
+    color:red
+}
+.playerprofile{
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://th.bing.com/th/id/OIP.cQqKjYwfdcRReuqghKQjOQHaE7?w=226&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.gpt-btn{
+    font-size: 30px;
+    color: #2babe2; 
+    
+    text-shadow: 2px 2px orange;
+    font-style: monospace;
+    animation: blinker 5s linear infinite ;
+    cursor: pointer;
+}
+@keyframes blinker {50%{
+    opacity: 0.5;
+}
+}
+/* styles.css */
+.options {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .profileimg {
+    height: 200px;
+    width: 500px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image retains its aspect ratio */
+    margin-right: 60px; /* Adjust margin as needed */
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+.stat,.picstat,.vdo{
+    margin-top: 3%;
+    background-color: rgb(0, 255, 13);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px dotted;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    animation: borderAnimation 1s linear infinite;
+    cursor: pointer;
+}
+.BERTmain{
+  margin-top: 3%;
+    background-color: rgb(0, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px dotted;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    animation: borderAnimation 1s linear infinite;
+    cursor: pointer;
+}
+.BERT {
+    margin-top: 3%;
+    text-overflow: ellipsis;
+    background-color: yellow;
+    margin-left: 100%;
+    padding: 10px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px dotted;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    animation: borderAnimation 1s linear infinite;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-image-source: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    }
+    100% {
+        border-image-source: linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red);
+    }
+}
+.video-player {
+    max-width: 50%;
+    height: 400px; /* Adjust this as needed */
+    margin: auto;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 2000x;
+  }
+  input[type="text"] {
+    margin-left: 30%;
+    width: 300px; /* Adjust width as needed */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 1px solid #ccc; /* Border color and thickness */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+  
+  /* Style for when the input is focused */
+  input[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Change border color when focused */
+  }
+  .search{
+    padding: 10px;
+  }
+  .sc{
+    display: flex; 
+  }
+  .inner-btn{
+    background-color: antiquewhite;
+    transition: background-color 0.3s;
+  }
+  .inner-btn:hover {
+    background-color: lightblue; /* Change background color on hover */
+  }
+  .co{
+    display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  }
+  .questionll{
+    margin-left: 20%;
+  }
